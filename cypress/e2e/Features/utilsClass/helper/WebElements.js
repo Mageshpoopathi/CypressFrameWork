@@ -1,0 +1,34 @@
+export class WebElements{
+        elementText(WebElement,containText){
+          cy.get(WebElement).should('contain.text',containText)
+            .each(function($el,index,$listOfElement){
+              if($el.text()==containText){
+                $el.click();
+              }
+        })
+        }
+        verifyLengthOfList(WebElement,length){
+           cy.get(WebElement).should('have.length',length)
+        }
+        lengthOfList(WebElement,containText){
+            cy.get(WebElement).should('contain.text',containText)
+                    .each(function($el,index,$listOfElement){
+                        cy.log($listOfElement.length);
+                        break;
+                    })
+        }
+        printList(WebElement,containText){
+            cy.get(WebElement).should('contain.text',containText)
+                    .each(function($el,index,$listOfElement){
+                       cy.log($el.text());
+                    })
+        }
+        indexBasedElement(WebElement,containText,indexValue){
+             cy.get(WebElement).should('contain.text',containText)
+                                .each(function($el,index,$listOfElement){
+                                    if(index==indexValue){
+                                        $el.click();
+                                    }
+                                })
+        }
+}

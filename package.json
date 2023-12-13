@@ -4,7 +4,8 @@
   "description": "automate parabank website using cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
+    "test": "cypress-ntlm open",
+    "test1": "cypress-ntlm open",
     "cypress:browserStack": "browserstack-cypress run --sync --spec cypress/e2e/Features/login.feature"
   },
   "author": "Expleo",
@@ -25,6 +26,9 @@
     }
   },
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-iframe": "^1.0.1",
+    "cypress-ntlm-auth": "^4.1.3",
     "multiple-cucumber-html-reporter": "^3.5.0"
   }
 }

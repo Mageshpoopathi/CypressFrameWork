@@ -36,3 +36,4 @@ When  ("Sroll down ad click the continue button",()=>{
 Then  ("Order successfully placed page visible",()=>{
 cy.screenshot("order successfully placed");
 })
+

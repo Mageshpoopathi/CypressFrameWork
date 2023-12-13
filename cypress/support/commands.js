@@ -25,3 +25,23 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 ///<reference types="Cypress" />
 ///<reference types="cypress-xpath" />
+
+Cypress.Commands.add('WorkIFrame',(iframe,InsideIFrame)=>{
+     cy.xpath(iframe).its('0.contentDocument.body').find(InsideIFrame)
+                .should('be.visible').then(cy.wrap);
+
+})
+Cypress.Commands.add('forClick',()=>{
+    WebElement.trigger('mouseover').click();
+    cy.log("Button is clicked");
+})
+Cypress.Commands.add('typeText',(WebElement,value)=>{
+                    WebElement.click().type(value);
+})
+Cypress.Commands.add('clearEnter',(WebElement)=>{
+     WebElement.trigger('mouseover').click().clear();
+})
+Cypress.Commands.add('asserText',(WebElement)=>{
+WebElement.should('be.visible')
+})
+

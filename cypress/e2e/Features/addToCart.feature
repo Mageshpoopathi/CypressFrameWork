@@ -12,3 +12,6 @@ Feature: Add to Cart
     Then  Order successfully placed page visible
 
 
+
+
+

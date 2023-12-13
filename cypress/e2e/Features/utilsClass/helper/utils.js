@@ -18,7 +18,7 @@ export class DummyValues{
     }
     this._randomString=str;
   }
-    getrandomString(){
+    getRandomString(){
      // console.log(`${this._randomString}`)
       return this._randomString;
     }

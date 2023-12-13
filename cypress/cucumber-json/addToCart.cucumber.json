@@ -8,101 +8,31 @@
     "uri": "addToCart.feature",
     "elements": [
       {
-        "id": "add-to-cart;add-a-item-in-the-cart-ad-purchase",
+        "id": "add-to-cart;verify-the-working-of-iframe-and-alert-methods",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Add a Item in the cart ad purchase",
+        "line": 14,
+        "name": "Verify the working of iframe and alert methods",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
-            "name": "Launch the url and login to the appplication",
+            "line": 15,
+            "name": "Launch the leafground website",
             "result": {
               "status": "passed",
-              "duration": 7880000000
+              "duration": 3306000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "Click the customized option for purchase from dropdown",
+            "line": 16,
+            "name": "working with iframe tag",
             "result": {
-              "status": "passed",
-              "duration": 741000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "Purhase items should be visible",
-            "result": {
-              "status": "passed",
-              "duration": 37000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "click the add to Cart button",
-            "result": {
-              "status": "passed",
-              "duration": 432000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "Your cart icon changes and click the cart icon",
-            "result": {
-              "status": "passed",
-              "duration": 736000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Click checkout in your cart page",
-            "result": {
-              "status": "passed",
-              "duration": 496000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "Fill the first name,lastname and zip code to continue purchase",
-            "result": {
-              "status": "passed",
-              "duration": 2120000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Sroll down ad click the continue button",
-            "result": {
-              "status": "passed",
-              "duration": 1009000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "Order successfully placed page visible",
-            "result": {
-              "status": "passed",
-              "duration": 2441000000
+              "status": "undefined",
+              "duration": 31000000
             }
           }
         ]

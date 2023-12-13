@@ -8,161 +8,21 @@
     "uri": "login.feature",
     "elements": [
       {
-        "id": "login-to-the-swaglabs-website;login-with-valid-credentials",
+        "id": "login-to-the-swaglabs-website;verify-the-working-of-iframe-and-alert-methods",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "login with Valid credentials",
+        "line": 22,
+        "name": "Verify the working of iframe and alert methods",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Launch the SwagLabs URL",
-            "result": {
-              "status": "passed",
-              "duration": 689000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "Enter valid Username and Password",
-            "result": {
-              "status": "passed",
-              "duration": 2279000000
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "Assert the logo of the Website with valid credentials",
+            "line": 27,
+            "name": "launch the Authentication website",
             "result": {
               "status": "passed",
-              "duration": 102000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login-to-the-swaglabs-website;login-with-invalid-username-and-valid-password",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "login with invalid username and valid password",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Launch the SwagLabs URL",
-            "result": {
-              "status": "passed",
-              "duration": 644000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Enter Invalid Username and valid Password",
-            "result": {
-              "status": "passed",
-              "duration": 1073000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "Assert the logo of the Website with invalid username",
-            "result": {
-              "status": "passed",
-              "duration": 38000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login-to-the-swaglabs-website;login-with-valid-username-and-invalid-password",
-        "keyword": "Scenario",
-        "line": 14,
-        "name": "login with Valid username and invalid password",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Launch the SwagLabs URL",
-            "result": {
-              "status": "passed",
-              "duration": 369000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "Enter valid Username and Invalid Password",
-            "result": {
-              "status": "passed",
-              "duration": 871000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "Assert the logo of the Website with invalid password",
-            "result": {
-              "status": "passed",
-              "duration": 18000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "login-to-the-swaglabs-website;login-with-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "login with InValid credentials",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Launch the SwagLabs URL",
-            "result": {
-              "status": "passed",
-              "duration": 274000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 19,
-            "name": "Enter Invalid Username and Password",
-            "result": {
-              "status": "passed",
-              "duration": 906000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "Assert the logo of the Website with invalid credentials",
-            "result": {
-              "status": "passed",
-              "duration": 20000000
+              "duration": 2936000000
             }
           }
         ]
